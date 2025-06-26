@@ -9,7 +9,7 @@
 
 void setup()
 {
-    Serial.begin(9600);
+    Serial.begin(115200); // Aumentar a velocidade do Serial
     Serial.println("Iniciando Prótese Mão Robótica...");
 
     // Inicializar módulos
@@ -34,7 +34,10 @@ void loop()
     // 4. Controlar servos
     controlServos(gesture);
 
-    // 5. Enviar dados via WiFi (opcional)
+    // 5. Lidar com cliente WiFi
+    handleWiFiClient();
+
+    // 6. Enviar dados via WiFi (opcional)
     sendWiFiData(emgValue, gesture);
 
     delay(LOOP_DELAY);

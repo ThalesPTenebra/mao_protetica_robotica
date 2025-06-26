@@ -1,12 +1,6 @@
 #include "../include/servo_control.h"
 
 // Objetos servo
-Servo servoThumb;
-Servo servoIndex;
-Servo servoMiddle;
-Servo servoRing;
-Servo servoPinky;
-
 Servo servos[5];
 int servoPins[5] = {SERVO_THUMB_PIN, SERVO_INDEX_PIN, SERVO_MIDDLE_PIN, SERVO_RING_PIN, SERVO_PINKY_PIN};
 
