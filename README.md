@@ -1,7 +1,3 @@
-Claro\! Criei um `README.md` completo e bem estruturado para o seu projeto. Ele explica não apenas _o que_ o código faz, mas também _o porquê_ de cada decisão de arquitetura, como o uso de RTOS e JSON.
-
----
-
 # 🤖 Mão Robótica com ESP32, PCA9685 e BLE
 
 Este é o firmware para uma mão robótica de 5 servos controlada por um microcontrolador ESP32. A comunicação é feita via Bluetooth Low Energy (BLE), permitindo o controle total dos movimentos, a execução de gestos pré-programados e o monitoramento de status em tempo real a partir de um smartphone ou outro dispositivo central BLE.
